@@ -7,7 +7,8 @@ This project provides a modular Python solution to simulate and detect conflicts
 - **main.py**: Entry point that loads missions, checks for conflicts, and visualizes results.
 - **deconflict.py**: Contains logic for loading missions and performing conflict detection.
 - **visualization.py**: Visualizes drone trajectories and animates the primary drone's mission.
-- **collide.json**: JSON file containing mission waypoints and paths for the primary and other drones.
+- **collide.json**: conflictable JSON file containing mission waypoints and paths for the primary and other drones.
+- **missions.json**: collision free JSON file containing mission waypoints and paths for the primary and other drones
 
 ## Features
 
